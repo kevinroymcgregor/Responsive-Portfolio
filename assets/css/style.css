@@ -152,6 +152,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+
 }
 
 .work h3 {
@@ -219,15 +220,20 @@ input[type=submit] {
 @media only screen and (max-width: 1200px) {
   #masthead{
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
   }
   body{
     margin: 0;
   }
   .main-section{
-    margin: 0 20px 20px;
+    margin: 0 150px 20px 20px;
     width: auto;
-    max-width: 700px;
+    min-width: 85%;
+    /* float: none; */
+    /* max-width: 700px; */
+  }
+  .work{
+    width: 45%;
   }
 }
 
@@ -242,6 +248,10 @@ input[type=submit] {
   .main-section{
     margin: 0 20px 20px;
     width: auto;
+    /* max-width: none; */
+  }
+  .work{
+    width: 45%;
   }
 }
 
@@ -258,6 +268,7 @@ input[type=submit] {
     /* margin: 0; */
     top: -30px;
     padding-right: 0;
+    padding-left: 0;
   }
   body{
     margin: 0;
@@ -265,5 +276,8 @@ input[type=submit] {
   .main-section{
     margin: 0 20px 20px;
     width: auto;
+  }
+  .work{
+    width: 100%;
   }
 }
